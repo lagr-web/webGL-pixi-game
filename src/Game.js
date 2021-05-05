@@ -4,7 +4,7 @@ import Enemy from './Enemy'
 import * as PIXI from 'pixi.js';
 import {Spine} from 'pixi-spine';
 import {howl, howler} from 'howler';
-import Hittest from "./Hittest";
+import HitTest from "./HitTest";
 
 export default class Game{
 
@@ -16,7 +16,7 @@ constructor(){
     this.background = this.myStage.bg;
     this.si = this.myStage.stageInfo;
 
-    this.ht = new Hittest();
+    this.ht = new HitTest();
 
     this.SoundArray = ["ia1", "ia2"];
 

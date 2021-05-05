@@ -1,4 +1,4 @@
-export default class Hittest {
+export default class HitTest {
 
     constructor() {
    

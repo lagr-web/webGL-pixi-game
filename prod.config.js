@@ -4,8 +4,12 @@ const UnminifiedWebpackPlugin = require('unminified-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
+
+    context: __dirname,
+    target: "webworker",
+  entry: './src/app.js',
     mode: 'production',
-    watch: true,
+   
 
 
     plugins: [
